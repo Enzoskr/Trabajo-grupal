@@ -15,3 +15,12 @@
   text-decoration: none;
   list-style-type: none;
 }
+main {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--blanco);
+  width: 100%;
+}
