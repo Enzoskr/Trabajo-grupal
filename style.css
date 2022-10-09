@@ -368,6 +368,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   flex-wrap: wrap;
   flex-direction: column;
   border-radius: 15px;
@@ -383,9 +384,9 @@ main {
 
 .card-populares {
   display: flex;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
   gap: 20px;
   width: 282px;
   height: 213px;
@@ -409,7 +410,8 @@ main {
 .card-info-populares {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: left;
+  flex-direction: column;
   gap: 1px;
 }
 
@@ -420,10 +422,11 @@ main {
   gap: 5px;
 }
 
-.card-info-populares p:nth-child(1){
+.card-info-populares p:nth-child(1) {
   font-size: 15px;
   font-weight: 500;
   color: var(--blanco);
+  line-height: 131.02%;
 }
 
 .card-info-populares p:nth-child(2){
@@ -446,5 +449,22 @@ main {
   font-size: 19px;
   line-height: 131.02%
 }
+
+.bottom-add2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85px;
+  height: 29px;
+  border-radius: 17.5px;
+  background: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--blanco);
+  letter-spacing: 0.5px;
+}
+
+
 
 
