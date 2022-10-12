@@ -1,0 +1,111 @@
+@media (max-width: 992px) {
+  .logo {
+    width: 30%;
+    height: 30%;
+  }
+  #navbar-elements {
+    gap: 70px;
+  }
+
+  #navbar-elements a {
+    font-size: 15px;
+  }
+
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hero-info h1,
+  span {
+    width: 80%;
+    max-width: 400px;
+    min-width: unset;
+  }
+  .hero-info p {
+    width: 80%;
+    max-width: 500px;
+  }
+
+  .hero-card {
+    display: none;
+  }
+
+  #recomendacion {
+    padding: 50px 0px;
+    width: 70%;
+    max-width: 500px;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .card-recomendacion {
+    max-width: 80%;
+    justify-content: center;
+  }
+
+  .card-info-recomendacion {
+    max-width: 80%;
+    text-align: center;
+  }
+  .card-box-recomendacion img {
+    width: 50px;
+    height: 50px;
+  }
+  .categorias-columna {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #Populares h2 {
+    text-align: center;
+    max-width: 85%;
+  }
+  .card-populares {
+    justify-content: center;
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+  .cart {
+    left: 0;
+    width: 100%;
+  }
+
+  .hero-info p {
+    width: 60%;
+    max-width: unset;
+  }
+
+  .categorias-columna {
+    max-width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-categorias {
+    height: 100px;
+    width: 100px;
+  }
+
+  .card-box-categorias {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+  .card-box-categorias img {
+    width: 50%;
+    height: 50%;
+  }
+
+  .card-info-categorias {
+    font-size: 12px;
+  }
+
+  .card-info-mid {
+    display: none;
+  }
+}
