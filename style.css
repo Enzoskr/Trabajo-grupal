@@ -27,7 +27,7 @@ body {
 header {
   height: 151px;
   width: 100%;
-  background: var(--background);
+  background: var(--background2);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -477,6 +477,13 @@ main {
   gap: 100px;
   font-weight: 700;
   font-size: 19px;
+  background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.card-info-populares3 p {
   background: linear-gradient(98.81deg, #ffa100 -0.82%, #ff005c 101.53%);
   color: transparent;
   background-clip: text;
