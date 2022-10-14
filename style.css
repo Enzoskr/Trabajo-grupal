@@ -504,3 +504,28 @@ main {
   color: var(--blanco);
   letter-spacing: 0.5px;
 }
+
+footer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  gap: 30px;
+  background: #131415;
+  color: white;
+}
+
+footer div{
+  display: flex;
+  gap: 25px;
+}
+
+footer div>a{
+  color: white;
+}
+
+footer span{
+  font-weight: bold;
+}
