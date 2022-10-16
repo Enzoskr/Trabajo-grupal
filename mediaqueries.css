@@ -108,4 +108,9 @@
   .card-info-mid {
     display: none;
   }
+  footer a,
+  p {
+    font-size: 12px;
+    text-align: center;
+  }
 }
